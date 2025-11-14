@@ -91,10 +91,10 @@
 
         sym {
             bindings = <
-  &kp EXCL       &kp AT                &kp HASH   &kp DLLR   &kp PRCNT    &kp CARET      &kp AMPS          &kp ASTRK          &kp LPAR  &kp RPAR
-  &kp RA(GRAVE)  &kp RA(I)             &kp RA(N)  &kp RA(E)  &kp RA(U)    &kp PIPE       &kp LT            &kp GT             &kp LBRC  &kp RBRC
-  &kp GRAVE      &kp RS(RA(NUMBER_2))  &kp TILDE  &kp MINUS  &kp UNDER    &kp BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT
-                                       &trans     &trans     &trans       &trans         &trans            &trans
+  &kp EXCL       &kp AT     &kp HASH   &kp DLLR   &kp PRCNT    &kp CARET      &kp AMPS          &kp ASTRK          &kp LPAR  &kp RPAR
+  &kp RA(GRAVE)  &kp RA(I)  &kp RA(N)  &kp RA(E)  &kp RA(U)    &kp PIPE       &kp LT            &kp GT             &kp LBRC  &kp RBRC
+  &kp GRAVE      &kp CARET  &kp TILDE  &kp MINUS  &kp UNDER    &kp BACKSLASH  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT
+                            &trans     &trans     &trans       &trans         &trans            &trans
             >;
         };
 
