@@ -85,7 +85,7 @@
   &kp F10           &kp F9            &kp F8               &kp F7  &none     &kp SLASH  &kp N7              &kp N8        &kp N9            &kp MINUS
   &hm LEFT_GUI F11  &hm RIGHT_ALT F6  &hm LEFT_CONTROL F5  &kp F4  &none     &kp ASTRK  &hm RIGHT_SHIFT N4  &hm RCTRL N5  &hm RIGHT_ALT N6  &hm RIGHT_GUI PLUS
   &kp F12           &kp F3            &kp F2               &kp F1  &none     &kp DOT    &kp N1              &kp N2        &kp N3            &kp EQUAL
-                                      &trans               &trans  &trans    &trans     &kp N0              &none
+                                      &trans               &trans  &trans    &trans     &kp N0              &kp COMMA
             >;
         };
 
