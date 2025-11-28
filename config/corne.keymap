@@ -89,6 +89,20 @@
             bindings = <&kp LS(NUMBER_6) &kp SPACE>;
             label = "CARET";
         };
+
+        acute: acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GRAVE &kp SPACE>;
+            label = "ACUTE";
+        };
+
+        tilde: tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TILDE &kp SPACE>;
+            label = "TILDE";
+        };
     };
 
     keymap {
@@ -117,7 +131,7 @@
   &kp EXCL           &kp AT          &kp HASH                  &kp DLLR          &kp PRCNT         &caret         &kp AMPS     &kp ASTRK       &kp LPAR  &kp RPAR
   &kp GRAVE          &kp CARET       &kp TILDE                 &kp MINUS         &kp UNDER         &kp PIPE       &kp LT       &kp GT          &kp LBRC  &kp RBRC
   &kp RC(RS(COLON))  &kp RC(RS(AT))  &kp LA(LS(LC(QUESTION)))  &kp RA(NUMBER_1)  &kp APOSTROPHE    &kp BACKSLASH  &apostrophe  &double_quotes  &kp LBKT  &kp RBKT
-                                     &trans                    &mo 3             &trans            &trans         &trans       &trans
+                                     &acute                    &mo 3             &trans            &trans         &trans       &kp RA(APOS)
             >;
         };
 
@@ -126,7 +140,7 @@
   &kp RA(EXCL)      &kp RA(N2)  &kp RA(NUMBER_3)  &kp RA(R)                 &kp RA(T)         &kp RA(D)          &kp RA(PLUS)              &kp RA(EQUAL)             &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
   &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)        &hm LEFT_SHIFT RA(RS(S))  &kp RA(N5)        &kp RA(PIPE)       &hm RIGHT_SHIFT RA(SEMI)  &kp RS(RA(C))             &kp RA(N9)            &kp RA(N0)
   &kp RA(Z)         &kp RA(S)   &kp RA(C)         &kp RA(MINUS)             &kp RA(DOLLAR)    &kp RA(BACKSLASH)  &kp RA(COLON)             &kp LS(RA(SINGLE_QUOTE))  &kp RA(L)             &kp RA(M)
-                                &kp RA(APOS)      &trans                    &trans            &trans             &trans                    &trans
+                                &tilde            &trans                    &trans            &trans             &trans                    &trans
             >;
         };
 
