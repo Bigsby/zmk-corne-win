@@ -72,21 +72,21 @@
         double_quotes: double_quotes {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DQT>;
+            bindings = <&kp DQT &kp SPACE>;
             label = "DOUBLE_QUOTES";
         };
 
         apostrophe: apostrophe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SQT>;
+            bindings = <&kp APOS &kp SPACE>;
             label = "APOSTROPHE";
         };
 
         caret: caret {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp CARET>;
+            bindings = <&kp LS(NUMBER_6) &kp SPACE>;
             label = "CARET";
         };
     };
@@ -106,9 +106,9 @@
         num {
             bindings = <
   &kp F10           &kp F9            &kp F8               &kp F7  &kp PERCENT    &kp SLASH  &kp N7              &kp N8        &kp N9            &kp MINUS
-  &hm LEFT_GUI F11  &hm RIGHT_ALT F6  &hm LEFT_CONTROL F5  &kp F4  &kp CARET      &kp ASTRK  &hm RIGHT_SHIFT N4  &hm RCTRL N5  &hm RIGHT_ALT N6  &hm RIGHT_GUI PLUS
+  &hm LEFT_GUI F11  &hm RIGHT_ALT F6  &hm LEFT_CONTROL F5  &kp F4  &caret         &kp ASTRK  &hm RIGHT_SHIFT N4  &hm RCTRL N5  &hm RIGHT_ALT N6  &hm RIGHT_GUI PLUS
   &kp F12           &kp F3            &kp F2               &kp F1  &kp PERIOD     &kp COMMA  &kp N1              &kp N2        &kp N3            &kp EQUAL
-                                      &trans               &trans  &trans         &trans     &kp N0              &trans
+                                      &trans               &trans  &trans         &trans     &kp N0              &kp SPACE
             >;
         };
 
@@ -125,7 +125,7 @@
             bindings = <
   &kp RA(EXCL)      &kp RA(N2)  &kp RA(NUMBER_3)  &kp RA(R)                 &kp RA(T)         &kp RA(D)          &kp RA(PLUS)              &kp RA(EQUAL)             &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
   &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)        &hm LEFT_SHIFT RA(RS(S))  &kp RA(N5)        &kp RA(PIPE)       &hm RIGHT_SHIFT RA(SEMI)  &kp RS(RA(C))             &kp RA(N9)            &kp RA(N0)
-  &kp RA(Z)         &kp RA(S)   &kp RA(C)         &kp RA(MINUS)             &kp RA(DOLLAR)    &kp RA(BACKSLASH)  &kp RA(COLON)             &kp LS(RS(SINGLE_QUOTE))  &kp RA(L)             &kp RA(M)
+  &kp RA(Z)         &kp RA(S)   &kp RA(C)         &kp RA(MINUS)             &kp RA(DOLLAR)    &kp RA(BACKSLASH)  &kp RA(COLON)             &kp LS(RA(SINGLE_QUOTE))  &kp RA(L)             &kp RA(M)
                                 &kp RA(APOS)      &trans                    &trans            &trans             &trans                    &trans
             >;
         };
