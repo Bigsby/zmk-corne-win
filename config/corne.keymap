@@ -100,10 +100,10 @@
 
         alt_sym {
             bindings = <
-  &kp RA(EXCL)      &kp RA(N2)  &kp RA(NUMBER_3)  &kp RA(R)      &kp RA(T)         &kp RA(D)          &kp RA(PLUS)                  &kp RA(EQUAL)              &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
-  &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)        &kp RA(RS(S))  &kp RA(RS(C))     &kp RA(PIPE)       &hm RA(RIGHT_SHIFT) RA(SEMI)  &trans                     &kp RA(N9)            &kp RA(N0)
-  &kp RA(Z)         &kp RA(S)   &kp RA(C)         &kp RA(MINUS)  &kp RA(DOLLAR)    &kp RA(BACKSLASH)  &kp RA(COLON)                 &kp LA(LS(DOUBLE_QUOTES))  &kp RA(L)             &kp RA(M)
-                                &trans            &trans         &trans            &trans             &trans                        &trans
+  &kp RA(EXCL)      &kp RA(N2)  &kp RA(NUMBER_3)  &kp RA(R)                 &kp RA(T)         &kp RA(D)          &kp RA(PLUS)              &kp RA(EQUAL)              &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
+  &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)        &hm LEFT_SHIFT RA(RS(S))  &kp RA(RS(C))     &kp RA(PIPE)       &hm RIGHT_SHIFT RA(SEMI)  &trans                     &kp RA(N9)            &kp RA(N0)
+  &kp RA(Z)         &kp RA(S)   &kp RA(C)         &kp RA(MINUS)             &kp RA(DOLLAR)    &kp RA(BACKSLASH)  &kp RA(COLON)             &kp LA(LS(DOUBLE_QUOTES))  &kp RA(L)             &kp RA(M)
+                                &trans            &trans                    &trans            &trans             &trans                    &trans
             >;
         };
 
