@@ -18,6 +18,8 @@
 
 &msc { acceleration-exponent = <1>; };
 
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS COLON>; };
+
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
 
