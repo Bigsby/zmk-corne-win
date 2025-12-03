@@ -128,19 +128,19 @@
 
         num {
             bindings = <
-  &kp F10           &kp F9            &kp F8               &kp F7  &kp PERCENT    &kp SLASH  &kp N7              &kp N8        &kp N9            &kp MINUS
-  &hm LEFT_GUI F11  &hm RIGHT_ALT F6  &hm LEFT_CONTROL F5  &kp F4  &caret         &kp ASTRK  &hm RIGHT_SHIFT N4  &hm RCTRL N5  &hm RIGHT_ALT N6  &hm RIGHT_GUI PLUS
-  &kp F12           &kp F3            &kp F2               &kp F1  &kp PERIOD     &kp COMMA  &kp N1              &kp N2        &kp N3            &kp EQUAL
-                                      &trans               &trans  &trans         &trans     &kp N0              &kp SPACE
+  &kp F10           &kp F9           &kp F8               &kp F7  &kp PERCENT    &kp SLASH  &kp N7              &kp N8        &kp N9           &kp MINUS
+  &hm LEFT_GUI F11  &hm LEFT_ALT F6  &hm LEFT_CONTROL F5  &kp F4  &caret         &kp ASTRK  &hm RIGHT_SHIFT N4  &hm RCTRL N5  &hm LEFT_ALT N6  &hm RIGHT_GUI PLUS
+  &kp F12           &kp F3           &kp F2               &kp F1  &kp PERIOD     &kp COMMA  &kp N1              &kp N2        &kp N3           &kp EQUAL
+                                     &trans               &trans  &trans         &trans     &kp N0              &kp SPACE
             >;
         };
 
         sym {
             bindings = <
-  &kp EXCL           &kp AT          &kp HASH                  &kp DLLR          &kp PRCNT         &caret         &kp AMPS     &kp ASTRK       &kp LPAR  &kp RPAR
-  &kp GRAVE          &kp CARET       &kp TILDE                 &kp MINUS         &kp UNDER         &kp PIPE       &kp LT       &kp GT          &kp LBRC  &kp RBRC
-  &kp RC(RS(COLON))  &kp RC(RS(AT))  &kp LA(LS(LC(QUESTION)))  &kp RA(NUMBER_1)  &kp APOSTROPHE    &kp BACKSLASH  &apostrophe  &double_quotes  &kp LBKT  &kp RBKT
-                                     &acute                    &mo 4             &trans            &trans         &trans       &kp RA(APOS)
+  &kp EXCL            &kp AT              &kp HASH         &kp DLLR             &kp PRCNT                   &caret         &kp AMPS            &kp ASTRK       &kp LPAR           &kp RPAR
+  &hm LEFT_GUI GRAVE  &hm LEFT_ALT CARET  &hm LCTRL TILDE  &hm LEFT_SHIFT APOS  &kp RA(NUMBER_1)            &kp PIPE       &hm RIGHT_SHIFT LT  &hm RCTRL GT    &hm LEFT_ALT LBRC  &hm RIGHT_GUI RBRC
+  &kp RC(RS(COLON))   &kp RC(RS(AT))      &kp UNDER        &kp MINUS            &kp LS(LA(LC(QUESTION)))    &kp BACKSLASH  &apostrophe         &double_quotes  &kp LBKT           &kp RBKT
+                                          &acute           &mo 4                &trans                      &trans         &trans              &kp RA(APOS)
             >;
         };
 
