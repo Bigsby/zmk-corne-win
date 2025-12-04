@@ -114,6 +114,7 @@
         compatible = "zmk,keymap";
 
         qwerty {
+            display-name = "querty";
             bindings = <
   &kp Q       &kp W       &kp E        &kp R            &kp T        &kp Y            &kp U         &kp I        &kp O           &kp P
   &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F      &kp G        &hm RIGHT_ALT H  &hm RSHFT J   &hm RCTRL K  &hm LEFT_ALT L  &hm RGUI SEMI
@@ -123,6 +124,7 @@
         };
 
         colemak {
+            display-name = "colemak";
             bindings = <
   &kp Q       &kp W       &kp F        &kp P            &kp B        &kp J            &kp L         &kp U        &kp Y           &kp SEMI
   &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHFT T      &kp G        &hm RIGHT_ALT M  &hm RSHFT N   &hm RCTRL E  &hm LEFT_ALT I  &hm RGUI O
@@ -132,6 +134,7 @@
         };
 
         num {
+            display-name = "num";
             bindings = <
   &kp F10           &kp F9           &kp F8               &kp F7  &kp PERCENT    &kp SLASH  &kp N7              &kp N8        &kp N9           &kp MINUS
   &hm LEFT_GUI F11  &hm LEFT_ALT F6  &hm LEFT_CONTROL F5  &kp F4  &caret         &kp ASTRK  &hm RIGHT_SHIFT N4  &hm RCTRL N5  &hm LEFT_ALT N6  &hm RIGHT_GUI PLUS
@@ -141,6 +144,7 @@
         };
 
         sym {
+            display-name = "sym";
             bindings = <
   &kp EXCL            &kp AT              &kp HASH         &kp DLLR             &kp PRCNT                   &caret         &kp AMPS            &kp ASTRK       &kp LPAR           &kp RPAR
   &hm LEFT_GUI GRAVE  &hm LEFT_ALT CARET  &hm LCTRL TILDE  &hm LEFT_SHIFT APOS  &kp RA(NUMBER_1)            &kp PIPE       &hm RIGHT_SHIFT LT  &hm RCTRL GT    &hm LEFT_ALT LBRC  &hm RIGHT_GUI RBRC
@@ -150,6 +154,7 @@
         };
 
         alt_sym {
+            display-name = "alt-sym";
             bindings = <
   &kp RA(EXCL)      &kp RA(N2)  &kp RA(NUMBER_3)  &kp RA(R)                 &kp RA(T)         &kp RA(D)          &kp RA(PLUS)              &kp RA(EQUAL)             &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
   &kp RA(NUMBER_6)  &kp RA(N7)  &kp RA(N8)        &hm LEFT_SHIFT RA(RS(S))  &kp RA(N5)        &kp RA(PIPE)       &hm RIGHT_SHIFT RA(SEMI)  &kp RS(RA(C))             &kp RA(N9)            &kp RA(N0)
@@ -159,6 +164,7 @@
         };
 
         nav {
+            display-name = "nav";
             bindings = <
   &none           &none       &none             &none       &none         &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none
   &trans          &trans      &trans            &trans      &none         &kp LEFT        &kp DOWN        &kp UP_ARROW  &kp RIGHT        &none
@@ -168,6 +174,7 @@
         };
 
         sys {
+            display-name = "sys";
             bindings = <
   &kp C_AL_LOCK       &tog 1      &none         &none         &bootloader          &none   &out OUT_TOG  &none         &none         &bl BL_TOG
   &none               &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &ext_power EP_TOG    &none   &bt BT_SEL 3  &bt BT_SEL 4  &none         &bl BL_INC
