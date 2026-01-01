@@ -31,12 +31,12 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <1 0>;
+            key-positions = <13 14>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <23 24>;
         };
 
         caps_word {
@@ -51,12 +51,12 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <8 9>;
+            key-positions = <25 26>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <18 19>;
+            key-positions = <15 16>;
         };
     };
 
