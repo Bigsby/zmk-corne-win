@@ -37,7 +37,6 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <23 22>;
-            layers = <5>;
         };
 
         caps_word {
