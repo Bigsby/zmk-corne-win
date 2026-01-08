@@ -7,11 +7,12 @@ The layers are as follows:
 |Number|Name|Description|
 |---|---|---|
 |0|querty|_normal_ letters with home row modifiers|
-|1|num|number, math and function keys|
-|2|sym|symbols, delimiters and accents|
-|3|alt_sym|extra symbols|
-|4|nav|cursors, mouse and media play|
-|k|sys|bluetooth and volume|
+|1|colemak|_normal letters in Colemak-DH layout|
+|2|num|number, math and function keys|
+|3|sym|symbols, delimiters and accents|
+|4|alt_sym|extra symbols|
+|5|nav|cursors, mouse and media play|
+|6|sys|bluetooth and volume|
 
 
 # Legend
