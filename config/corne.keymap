@@ -173,7 +173,7 @@
             >;
         };
 
-        museScore {
+        muse {
             bindings = <
   &kp RG(C)        &kp RG(V)              &kp RG(X)     &kp N7                   &kp T      &tog 6     &none                  &none            &kp LS(N9)          &kp MINUS
   &hm LEFT_META N  &hm LEFT_ALT NUMBER_6  &hm RCTRL N5  &hm LEFT_SHIFT NUMBER_4  &kp S      &kp LS(O)  &hm RIGHT_SHIFT LS(V)  &hm RCTRL LS(N)  &hm LEFT_ALT LS(S)  &hm RIGHT_META PLUS
@@ -181,7 +181,7 @@
                                           &trans        &kp N0                   &trans     &trans     &trans                 &trans
             >;
 
-            label = "museScore";
+            label = "muse";
         };
 
         sys {
